@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.full {
+    border: 1px solid black;
+    background-color: rgb(233, 236, 235);
+}
+
+.page-head h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 70px;
+}
+
+
+/* ------- navbar style-------- */
+
+#navbar {
+    position: sticky;
+    top: 0%;
+    border: 1px solid black;
+    z-index: 9999;
+
+}
+
+
+nav #head-logo {
+    margin-left: 20px;
+
+}
+
+nav li {
+    padding: 4px;
+    margin-right: 5px;
+}
+
+li .nav-link,
+b {
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+    border: 2px solid transparent;
+    transition: 1s;
+
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+    transform: translateY(-8px);
+    transition: 1s;
+    background: linear-gradient(white, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#active {
+    border-bottom: 2px solid black;
+    width: 100px;
+    transform: translateY(-8px);
+    background: linear-gradient(white, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.head-lable img {
+    border: 4px solid rgb(96, 175, 240);
+}
+
+.lable-text h1 {
+    position: relative;
+    top: -180px;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 50px;
+    left: 100px;
+}
+
+
+
+.logo {
+    margin-top: -160px;
+    margin-left: 70px;
+    padding: 25px;
+}
+
+.logo img {
+    border-radius: 50%;
+    border: 4px solid rgb(96, 175, 240);
+}
+
+.contact-img-content img {
+    margin-left: 70px;
+    margin-top: -330px;
+    margin-right: 25px;
+    border-radius: 50%;
+    border: 5px solid rgb(96, 175, 240);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.unorder-list ul {
+    text-align: center;
+    list-style-type: none;
+    margin-left: 180px;
+    line-height: 150px;
+    padding-top: 50px;
+
+}
+
+.unorder-list ul li {
+    font-size: x-large;
+    font-weight: 900;
+    height: 100px;
+}
+
+.unorder-list ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.unorder-list ul li a:hover {
+    color: red;
+}
+
+.c-care img {
+    margin-left: 70px;
+    margin-top: 50px;
+    border: 5px solid rgb(96, 175, 240);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.details {
+    border: 5px solid rgb(107, 194, 245);
+    border-radius: 5px;
+    margin-left: 650px;
+    margin-top: -400px;
+    margin-right: 70px;
+    padding: 20px 40px;
+    width: 550 px;
+    height: 400px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+input {
+    background: transparent;
+    border-style: none;
+    border-bottom: 2px solid black;
+}
+
+.btn {
+    position: relative;
+    left: 330px;
+    bottom: 40px;
+
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.center li {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: large;
+    line-height: 45px;
+    justify-content: start;
+}
+
+.li-style {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: large;
+    line-height: 45px;
+    justify-content: start;
+}
+
+.address h4 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.center li a:hover {
+    color: red;
+}
+
+.li-style a:hover {
+    color: red;
+}
+
+.center {
+    margin-left: 50px;
+}
+
+.center-2 {
+    margin-left: 70px;
+}
+
+.final-contet {
+    border: 1px solid black;
+    background: rgb(119, 214, 252);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 50px;
+}

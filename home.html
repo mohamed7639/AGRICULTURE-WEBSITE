@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture</title> 
+    <link rel="shortcut icon" href="icons/agronomy.png" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="./boostrap files/bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <script src="./boostrap files/bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.js"></script>
+    <script src="./boostrap files/bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/jquery.js"></script>
+
+    <!-- navbar section -->
+    <div class="container-fluid">
+        <nav class=" navbar navbar-expand-lg" id="navbar"
+            style="background: linear-gradient(rgb(208, 212, 208),white) ;">
+            <img src="./icons/agronomy.png" alt=" brand icon" width="26px" height="26px" id="head-logo" loading="lazy"><b
+                id="logo-txt">&nbsp;AGRI</b>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <img src="./icons/list.svg" alt="icons" width="26px" height="26px" loading="lazy">
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto" id="nav">
+                    <li class="nav-items">
+                        <a href="home.html" class="nav-link" id="active">Home</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="cultivation.html" class="nav-link">Cultivation</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="future crop.html" class="nav-link">Future Crop</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="contect.html" class="nav-link">Contect Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- background image -->
+        <div class="background">
+            <img src="./image/edit bg image 2.jpg" alt=" background img" loading="lazy" class="bg-img img-fluid ">
+            <div class="bg-content col-md-6 col-sm-12  col-lg-12">
+                <h1 class="h1-second display-1  mt-sm-5 " style="font-size:50px">MAKE LIFE EXTENSION
+                    <br>NUTRITIONAL VALUE &<br>HEALTHY FOODS - <span id="explore">Explore</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- translate section -->
+        <section style="margin:140px 0px 0px 10px">
+            <div id="google_translate_element">
+                <p><u>Translate This Page</u></p>
+            </div>
+        </section>
+
+
+        <!-- home page content -->
+
+        <section id="card">
+            <div class="row">
+                <h3 style="text-align: center; margin-top: 20px;"><u>OUR SERVICE</u></h3>
+                <div class="col-md-4 my-2  zoom">
+                    <div class="card shadow">
+                        <img src="image/card img/seeds img.jpg" alt="card-img" loading="lazy"
+                            class="card-img-top rounded col-md-4  col-sm-2 bg-img img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title"><u>SEEDS PROVIDE SERVICE</u></h5>
+                            <div class="card-text">
+                                <p>They help in germination of the new plant.
+                                    The seeds contain food reservoirs in the form of cotyledons and endosperm.
+                                    The seed coat is protective in nature which protects the embryo inside.
+                                    <span class="contect-btn" onclick="show()">&nbsp;&nbsp;Contact</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-2 zoom">
+                    <div class="card shadow">
+                        <img src="image/background card.jpg" alt="card-img" loading="lazy" class="card-img-top rounded ">
+                        <div class="card-body">
+                            <h5 class="card-title"><u>TRACTER PLOWING SERVICE</u></h5>
+                            <div class="card-text">
+                                <p>The clods then will be rolled over and destroyed in order to bring the soil back to
+                                    its original phase, helping the passage of organic substances, providing space and
+                                    nutriments to the new crop. <span class="contect-btn"
+                                        onclick="show()">&nbsp;&nbsp;Contact</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-2 zoom">
+                    <div class="card shadow">
+                        <img src="image/card img/tron-img.jpg" alt="card-img" loading="lazy" class="card-img-top rounded">
+                        <div class="card-body">
+                            <h5 class="card-title"><u>CROP FERTILIZATION SERVICE</u></h5>
+                            <div class="card-text">
+                                <p>Mixed liquid fertilizers containing nitrogen, phosphorus, and potassium may be
+                                    applied directly to the soil surface or as a foliar spray by field sprayers where
+                                    close-growing crops are raised. <span class="contect-btn"
+                                        onclick="show()">&nbsp;&nbsp;Contact</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- organic farm detais -->
+                <section>
+                    <h3 class="text-center mt-5  my-5 fw-bold"><u>ORGANIC FARM</u></h3>
+                    <div class="float-start product pro-img">
+                        <img src="./image/card img/produce organic foods.avif" alt=" img"
+                            title="this image about organic" id="oranic-con" loading="lazy" class="bg-img img-fluid">
+                    </div>
+                    <div class="text px-sm-4">
+                        <h2>Do you want to produce organic food product for your family</h2>
+                        <p class="paragraph">Growing your own organic vegetables is a great way to ensure you have
+                            healthy foods for your favorite recipes. When you grow organic veggies, you won't be able to
+                            treat them with chemicals or herbicides, so you’ll need to be more mindful of pests. If you
+                            want to start an organic vegetable garden, select a suitable spot in your yard where you can
+                            dig a plot, build a raised bed, or set up planting containers. Next, prepare your soil and
+                            plant your veggies. As your plants grow, keep them healthy with organic pest control.Choose
+                            a location with ample sunlight and proper drainage. Check your yard at different times of
+                            the day to observe the placement of the sun. Put your garden in an area that's exposed to
+                            sunlight for at least six hours throughout the day. Additionally, evaluate the location's
+                            drainage by checking for standing water.good-quality soil that drains well, then it's
+                            easiest to plant your garden directly into the ground. To get started, pull and discard
+                            weeds...</p>
+                    </div>
+
+
+                    <div class="float-start product con-2">
+                        <img src="./image/card img/24-min.webp" alt=" img" loading="lazy" title="this image about organic"
+                            id="organic-con" class="bg-img img-fluid">
+                    </div>
+                    <div class="text text-2 px-sm-4">
+                        <h2>Benifit of organic farms</h2>
+                        <p class="paragraph">It helps to maintain environment health by reducing the level of pollution.
+                            It reduces human and animal health hazards by reducing the level of residues in the product.
+                            It helps in keeping agricultural production at a sustainable level. It reduces the cost of
+                            agricultural production and also improves the soil health Organic farming strives to improve
+                            the health of the environment and helps the environment. It relies on managing the ecosystem
+                            rather than depleting it. Farmers in the organic realm must <span
+                                style="color:rgb(7, 128, 33); font-weight: 900;">abide by federal regulations</span> to
+                            ensure the “organicness” of the products they’re putting on the market.The benefits of
+                            organic farming on the environment are immense, so this article will focus on just some of
+                            the most impactful For farming to be organic, harmful chemicals and pesticides are a
+                            no-go...</p>
+                    </div>
+
+                    <div class="float-start product con-2  pro-img">
+                        <img src="./image/card img/1318400-organic-farming.webp" loading="lazy" alt=" img"
+                            title="this image about organic" id="oranic-con" class="bg-img img-fluid">
+                    </div>
+                    <div class="text text-2 px-sm-4">
+                        <h2>Maintainning organic farm</h2>
+                        <p class="paragraph">Plants require a number of soil nutrients like Nitrogen, Phosphorus,
+                            Potash, Sulfur etc. for
+                            their growth. But, soil nutrient levels can decrease over time when crop plants are
+                            harvested,
+                            as nutrients are not returned to the soil. Hence, these essential nutrients needs to be
+                            compensated either through chemical fertilizers or through natural process of decomposition
+                            like Farm Yard Manure, Green manures and Green leaf manures With the increase in population
+                            our compulsion would be not only to stabilize agricultural production but to increase it
+                            further in sustainable manner. The scientists have realized that
+                            the <span style="color:rgb(7, 128, 33); font-weight: 900;">‘Green Revolution’</span> with
+                            high input use has reached a plateau and is now sustained with diminishing return of falling
+                            dividends. Thus, a natural balance needs to be maintained at all
+                            cost for existence of life and property. The obvious choice for that would be more relevant
+                            in the present era, when these agrochemicals which are produced...</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="bottom col-12">
+                        <img src="./image/sign lable.png" alt="img" id="sign-lable" loading="lazy" style="z-index:1;">
+                        <div class="sign-content">
+                            <p> JOIN OUR NEWSLETTER</p>
+                            <h3>Subscribe to Us!</h3>
+                            <div class="input-group container-fluid col-sm-12">
+                                <input type="text" id="inp" placeholder=" Enter your E-mail"
+                                    class="d-inline-flex focus-ring focus-ring-dark ">
+                                <button class="btn btn-outline-success" id="button-addon2"
+                                    style="border: 2px solid black; font-weight: 900;"><a href="login page.html"
+                                        style="text-decoration: none; color: black;">submit</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="bg-success text-white  pb-4 mt-2 ">
+                    <div class="container text-center text-md-left text-sm-left">
+                        <div class="row text-center text-md-left text-sm-left">
+                            <div class="col-sm-3 col-md-3 col-lg-3 mx-2 mt-3">
+                                <h4 class="text-uppercase mb4 font-weight-bold"><u>Contact</u></h4>
+                                <ul style="list-style-type: none;">
+                                    <p>
+                                        <li><img src="./icons/location_535239.png" alt="icon" width="22px"
+                                                height="22px" loading="lazy">&nbsp;19th street,kindi,chennai</li>
+                                    </p>
+                                    <p>
+                                        <li><img src="./icons/telephone_159844.png" alt="icon" width="22px"
+                                                height="22px" style="margin-left: -80px;" loading="lazy">&nbsp;12-678-8899</li>
+                                    </p>
+                                    <p>
+                                        <li><img src="./icons/email_8803333.png" alt="icon" width="22px" height="22px"
+                                                style="margin-left: -15px;" loading="lazy">&nbsp;contact@domain.com</li>
+                                    </p>
+                                    <p>
+                                        <li><img src="./icons/clock_3114812.png" alt="icon" loading="lazy" width="22px" height="22px"
+                                                style="margin-left: 10px;">&nbsp;Time : 10:30am to 6.00pm</li>
+                                    </p>
+                                </ul>
+                            </div>
+                            <div class="col-sm-2 col-md-2 col-lg-2 mx-2 mt-3 ">
+                                <h4 class="text-uppercase mb-4 font-weight-bold" style="margin-left:25px;">
+                                    <u>Categories</u>
+                                </h4>
+                                <ul class="center center-2  ml-5 " style="list-style-type: none;">
+                                    <p>
+                                        <li><a href="#" class="text-white"
+                                                style="text-decoration: none;">fertilization</a></li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Organic
+                                                farm</a></li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Organic
+                                                Seeds</a></li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Organic
+                                                veg</a></li>
+                                    </p>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 col-lg-2 mx-2 mt-3">
+                                <h4 class="text-uppercase mb-4 font-weight-bold" style="margin-left:25px;">
+                                    <u>Information</u>
+                                </h4>
+                                <ul class="center center-2 " style="list-style-type: none;">
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none; ">Contect</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">About</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Service</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Gift card</a>
+                                        </li>
+                                    </p>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-3 col-lg-3 col-lg-2 mx-2 mt-3">
+                                <h4 class="text-uppercase mb-4 font-weight-bold" style="margin-left:25px;">
+                                    <u>Policies</u>
+                                </h4>
+                                <ul class="center center-2 " style="list-style-type: none;">
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none; ">Terms</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Privacy</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Security</a>
+                                        </li>
+                                    </p>
+                                    <p>
+                                        <li><a href="#" class="text-white" style="text-decoration: none;">Terms Of
+                                                Use</a></li>
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </footer>
+
+                <section>
+                    <div class=" copy bg-success text-white mt-2">
+                        <p>Copyright &copy; 2023 eFarm. All right Reserved.<br>Power by Agro Secrvice</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

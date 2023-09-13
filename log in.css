@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(image/login\ page.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.363);
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px black;
+}
+
+.head h1 {
+    font-weight: 900;
+    margin-left: 100px;
+    margin-top: 90px;
+    color: green;
+    padding-top: 40px;
+
+
+}
+
+#text {
+    text-align: center;
+    color: green;
+    text-shadow: 3px 3px 4px black;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.content input {
+    margin-left: 100px;
+    width: 250px;
+    background: transparent;
+    border-style: none;
+    border-bottom: 2px solid green;
+    margin-top: 30px;
+}
+
+.content .btn {
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+.content .btn:hover {
+    background-color: lightgreen;
+    color: black;
+    font-weight: 500;
+}

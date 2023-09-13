@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ------- navbar style-------- */
+
+#navbar {
+    position: sticky;
+    top: 0%;
+    border: 1px solid black;
+    z-index: 9999;
+
+}
+
+
+nav #head-logo {
+    margin-left: 20px;
+
+}
+
+nav li {
+    padding: 4px;
+    margin-right: 5px;
+}
+
+li .nav-link,
+b {
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+    border: 2px solid transparent;
+    transition: 1s;
+
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+    transform: translateY(-8px);
+    transition: 1s;
+    background: linear-gradient(white, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#active {
+    border-bottom: 2px solid black;
+    width: 70px;
+    transform: translateY(-8px);
+    background: linear-gradient(white, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ------background img-------- */
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-content {
+    margin-top: -380px;
+    margin-left: 50px;
+    color: rgb(161, 250, 161);
+
+}
+
+.bg-content .h1-second {
+    font-weight: bolder;
+    line-height: 100px;
+    text-shadow: 5px 5px 4px black;
+}
+
+#content {
+    margin-left: 160px;
+}
+
+#explore {
+    font-size: 25px;
+    border: 1px solid rgb(253, 255, 254);
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+#explore:hover {
+    background: rgb(116, 7, 7);
+    border: 1px solid rgb(248, 250, 249);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ------- home page content service content------ */
+
+.card-title {
+    color: rgb(62, 226, 62);
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+
+.card img {
+    height: 200px;
+    padding: 10px;
+}
+
+.contect-btn {
+    color: green;
+    font-weight: 900;
+}
+
+.contect-btn:hover {
+    color: black;
+    width: 5px;
+    cursor: pointer;
+}
+
+.contect-btn:active {
+    color: green;
+}
+
+.zoom {
+    transition: 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+}
+
+#card {
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 40px;
+
+}
+
+.card {
+    z-index: -1;
+}
+
+h3 {
+    font-weight: bolder;
+
+
+}
+
+.float-start {
+    transition: 1s;
+}
+
+.float-start:hover {
+    transform: rotatey(180deg);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.product img {
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.text {
+    padding-left: 10px;
+
+
+}
+
+.paragraph {
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+.con-2 {
+    margin-top: 60px;
+}
+
+.text-2 {
+    margin-top: 80px;
+}
+
+.pro-img img {
+    border: 4px solid rgb(156, 250, 156);
+}
+
+/* sign content */
+
+#inp {
+    width: 400px;
+    background: transparent;
+    border: 2px solid black;
+}
+
+.bottom {
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#button-addon2:active {
+    background-color: rgb(114, 231, 114);
+}
+
+#sign-lable {
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+    ;
+}
+
+.sign-content {
+    margin-left: 20px;
+    margin-top: -100px;
+    margin-bottom: -40px;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(10, 10, 10);
+    text-shadow: 3px 3px 4px black;
+    position: relative;
+
+}
+
+.input-group {
+    margin-left: 700px;
+    position: absolute;
+    bottom: 45px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+footer {
+    border-radius: 10px;
+}
+
+footer ul li a:hover {
+    text-shadow: 3px 3px 3px black;
+}
+
+
+.final-contet {
+    border: 1px solid black;
+    background: green;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 50px;
+}
+
+.copy {
+    text-align: center;
+    margin-bottom: -50px;
+    font-size: x-large;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 10px;
+
+}
+
